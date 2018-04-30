@@ -23,6 +23,44 @@
 
 /* Shadows (from mdl http://www.getmdl.io/) */
 
+.card-header.card-chart.my-class .my_text_polo {
+    padding-top: 25px;
+    padding-right: 15px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.card-header.card-chart.my-class .adding_class {
+   padding-left: 10px;
+}
+
+.card-header.card-chart.my-class .my_text_polo > p {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.62); 
+}
+
+.my-iframe
+{
+    width: 98.1%;
+    margin: 0 auto;
+}
+
+.card-header.card-chart.my-class
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #000;
+}
+
+.nkar{
+    margin-left:19%;
+}
+
+
+.elq{
+    font-size:151%;
+}
 .noUi-target,
 .noUi-target * {
     -webkit-touch-callout: none;

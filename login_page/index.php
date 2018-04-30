@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login V1</title>
+	<title>NPUA</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -23,6 +23,7 @@
 </head>
 <body>
 	
+	
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
@@ -30,9 +31,9 @@
 					<img src="images/img-01.png" alt="IMG">
 				</div>
 
-				<form class="login100-form validate-form" action="../pages/dashboard.html">
+				<form class="login100-form validate-form" action="login.php" method="post">
 					<span class="login100-form-title">
-						ՄՈՒՏՔ
+						ՈՒՍԱՆՈՂՆԵՐԻ ԼԱԲՈՐԱՏՈՐ/ԳՈՐԾՆԱԿԱՆ ԱՇԽԱՏԱՆՔՆԵՐԻ ԿԱՏԱՐՈՂԱԿԱՆԻ ՀԱՇՎԱՌՄԱՆ ՀԱՄԱԿԱՐԳ
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Մուտքագրեք վավեր էլ.փոստ: ex@abc.xyz">
@@ -76,6 +77,15 @@
 			</div>
 		</div>
 	</div>
+
+	<?php
+	session_start();
+
+	if(isset($_SESSION['error'])){
+	echo $_SESSION['error'];
+	unset($_SESSION['error']);
+}
+?>
 	
 	
 

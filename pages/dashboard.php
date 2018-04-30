@@ -17,6 +17,9 @@
     <link href="../assets/css/demo.css" rel="stylesheet" />
     <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
 </head>
 
@@ -24,11 +27,13 @@
     <div class="wrapper">
         <div class="sidebar" data-color="purple" data-image="../assets/img/sidebar-1.jpg">
 
-            -->
+            
             <div class="logo">
-                <a href="#" class="simple-text">
-                    NPUA
-                </a>
+            
+                <div class="nkar">
+                    <img src="../login_page/images/img-01.png" alt="IMG" width="150px">
+                </div>
+               
             </div>
             <div class="sidebar-wrapper">
                 <ul class="nav">
@@ -39,22 +44,22 @@
                         </a>
                     </li>
                     <li>
-                        <a href="./user.html">
+                        <a href="./user.php">
                             <i class="material-icons">person</i>
                             <p>Անձնական էջ</p>
                         </a>
                     </li>
                     <li>
-                        <a href="./table.html">
+                        <a href="./table.php">
                             <i class="material-icons">content_paste</i>
                             <p>Տվյալների Աղուսյակ</p>
                         </a>
                     </li>
 
                     <li>
-                        <a href="./maps.html">
+                        <a href="./maps.php">
                             <i class="material-icons">location_on</i>
-                            <p>Քարտեզ</p>
+                            <p>Հետադարձ կապ</p>
                         </a>
                     </li>
 
@@ -76,60 +81,30 @@
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
                             <li>
-                                <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="material-icons">dashboard</i>
-                                    <p class="hidden-lg hidden-md">Dashboard</p>
-                                </a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="material-icons">notifications</i>
-                                    <span class="notification">5</span>
-                                    <p class="hidden-lg hidden-md">Notifications</p>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="#">Mike John responded to your email</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">You have 5 new tasks</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">You're now friend with Andrew</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Another Notification</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Another One</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="material-icons">person</i>
+                                <a href="logout.php" class="dropdown-toggle">
+                                    <i class="fas fa-sign-out-alt elq"></i>
                                     <p class="hidden-lg hidden-md">Profile</p>
                                 </a>
                             </li>
                         </ul>
-                        <form class="navbar-form navbar-right" role="search">
-                            <div class="form-group  is-empty">
+                        <!-- <form class="navbar-form navbar-right" role="search"> -->
+                            <!-- <div class="form-group  is-empty">
                                 <input type="text" class="form-control" placeholder="ՈՐՈՆԵԼ">
                                 <span class="material-input"></span>
-                            </div>
-                            <button type="submit" class="btn btn-white btn-round btn-just-icon">
+                            </div> -->
+                            <!-- <button type="submit" class="btn btn-white btn-round btn-just-icon">
                                 <i class="material-icons">search</i>
                                 <div class="ripple-container"></div>
-                            </button>
-                        </form>
+                            </button> -->
+                        <!-- </form> -->
                     </div>
                 </div>
             </nav>
             <div class="content">
                 <div class="container-fluid">
                     <div class="row">
-             <!--            <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="card card-stats">
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <!-- <div class="card card-stats">
                                 <div class="card-header" data-background-color="orange">
                                     <i class="material-icons">content_copy</i>
                                 </div>
@@ -193,45 +168,40 @@
                                         <i class="material-icons">update</i> Just Updated
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
-                    </div> -->
+                    </div>
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="card">
-                                <div class="card-header card-chart" data-background-color="green">
-                                    <div class="ct-chart" id="dailySalesChart"></div>
-                                </div>
-                                <div class="card-content">
-                                    <h4 class="title">Daily Sales</h4>
-                                    <p class="category">
-                                        <span class="text-success">
-                                            <i class="fa fa-long-arrow-up"></i> 55% </span> increase in today sales.</p>
-                                </div>
-                                <div class="card-footer">
-                                    <div class="stats">
-                                        <i class="material-icons">access_time</i> updated 4 minutes ago
+                                <div class="card-header card-chart my-class" data-background-color="green">
+                                   <div class="fb-page" data-href="https://web.facebook.com/polytech.am/" data-tabs="timeline" data-width="420" data-height="350"
+                                            data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+                                            data-show-facepile="true">            
+                                    </div>
+                                    <div class="my_text_polo">
+                                        <h4> ՀԱՊՀ պաշտոնական ֆեյսբուքյան էջ</h4>
+                                        <p>Այստեղ Դուք կարող եք ստանալ ընդգրկուն և <br> լիարժեք տեղեկատվություն համալսարանի <br>կառուցվածքի և գործունեության մասին:</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div>  
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-6">
                             <div class="card">
-                                <div class="card-header card-chart" data-background-color="orange">
-                                    <div class="ct-chart" id="emailsSubscriptionChart"></div>
-                                </div>
-                                <div class="card-content">
-                                    <h4 class="title">Email Subscriptions</h4>
-                                    <p class="category">Last Campaign Performance</p>
-                                </div>
-                                <div class="card-footer">
-                                    <div class="stats">
-                                        <i class="material-icons">access_time</i> campaign sent 2 days ago
+                                <div class="card-header card-chart my-class" data-background-color="orange">
+                                    <div class="fb-page" data-href="https://web.facebook.com/scnpuaN1/" data-tabs="timeline" data-width="420" data-height="350"
+                                            data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+                                            data-show-facepile="true">
+                                    </div>
+                                     <div class="my_text_polo adding_class">
+                                        <h4>ՀԱՊՀ ՈԽ պաշտոնական ֆեյսբուքյան էջ</h4>
+                                        <p>Հայաստանի ազգային պոլիտեխնիկական համալսարանի Ուսանողական Խորհրդի պոշտոնական ֆեյսբուքյան էջը հանդիսանում է ՀԱՊՀ ՈւԽ-ի ինտերնետային կայքի ենթաբաժին: Այն ղեկավարվում է Ուսանողական Խորհրդի անդամների կողմից:</p>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <!-- <div class="col-md-4">
                             <div class="card">
                                 <div class="card-header card-chart" data-background-color="red">
                                     <div class="ct-chart" id="completedTasksChart"></div>
@@ -246,10 +216,10 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="row">
-                        <div class="col-lg-6 col-md-12">
+                        <!-- <div class="col-lg-6 col-md-12">
                             <div class="card card-nav-tabs">
                                 <div class="card-header" data-background-color="purple">
                                     <div class="nav-tabs-navigation">
@@ -469,14 +439,14 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
+                        </div> -->
+                        <div class="col-lg-12">
                             <div class="card">
                                 <div class="card-header" data-background-color="orange">
-                                    <h4 class="title">Employees Stats</h4>
-                                    <p class="category">New employees on 15th September, 2016</p>
+                                    <h4 class="title">360 Polytechnic</h4>
+                                    <p class="category">360 Polytechnic վիրտուալ հարթակ է, որտեղ այցելուները հնարավորություն ունեն ինտերակտիվ շրջել Պոլիտեխնիկում</p>
                                 </div>
-                                <div class="card-content table-responsive">
+                                <!-- <div class="card-content table-responsive">
                                     <table class="table table-hover">
                                         <thead class="text-warning">
                                             <th>ID</th>
@@ -511,6 +481,14 @@
                                             </tr>
                                         </tbody>
                                     </table>
+                                </div> -->
+                                <div class="my-iframe">
+                                    <iframe 
+                                        src="https://360stories.com/embed/92636" 
+                                        name="360Yerevan" allowfullscreen="true" 
+                                        frameborder="0" align="top" height="600px" 
+                                        width="100%" scrolling="none">
+                                    </iframe>
                                 </div>
                             </div>
                         </div>
@@ -548,7 +526,7 @@
                         <script>
                             document.write(new Date().getFullYear())
                         </script>
-                        <a href="http://www.creative-tim.com">ԽԱՉԻԿ ՄԱՆՈՒԿՅԱՆ</a> ՏՀՏ և Է ԻՆՍՏԻՏՈՒՏ, Հ 419-1 ԽՈՒՄԲ
+                        <a target="_blank" href="https://web.facebook.com/xmanoukian">ԽԱՉԻԿ ՄԱՆՈՒԿՅԱՆ</a> ՏՀՏ և Է ԻՆՍՏԻՏՈՒՏ, Հ 419-1 ԽՈՒՄԲ
                     </p>
                 </div>
             </footer>
@@ -581,5 +559,35 @@
 
     });
 </script>
+
+<!-- <script src="jquery-3.2.1.min.js"></script> -->
+
+<!-- <script>
+    $(document).ready(function(){
+        $(".elq").click(function(){
+
+            $.ajax({
+                url:"logout.php",
+                type:"post",
+                data:{action:"elq"},
+                success:function(d){
+                    location.reload()
+                }
+            })
+        })
+    })
+</script> -->
+
+<script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
 
 </html>

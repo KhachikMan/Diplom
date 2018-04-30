@@ -37,6 +37,11 @@ body, html {
 	font-family: Grapalat-Regular, sans-serif;
 }
 
+.img_form{
+  display: flex;
+  justify-content: space-between;
+}
+
 /*---------------------------------------------*/
 a {
 	font-family: Grapalat-Regular;
@@ -211,7 +216,7 @@ iframe {
 
 .login100-form-title {
   font-family: Grapalat-Bold;
-  font-size: 24px;
+  font-size: 18px;
   color: #5584ff;
   line-height: 1.2;
   text-align: center;

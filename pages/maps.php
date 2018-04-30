@@ -6,7 +6,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png" />
     <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Material Dashboard by Creative Tim</title>
+    <title>Հետադարձ կապ</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
     <!-- Bootstrap core CSS     -->
@@ -18,42 +18,46 @@
     <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
 </head>
 
 <body>
     <div class="wrapper">
         <div class="sidebar" data-color="purple" data-image="../assets/img/sidebar-1.jpg">
 
-            <div class="logo">
-                <a href="http://www.creative-tim.com" class="simple-text">
-                    Creative Tim
-                </a>
+                <div class="logo">
+            
+                <div class="nkar">
+                    <img src="../login_page/images/img-01.png" alt="IMG" width="150px">
+                </div>
+               
             </div>
             <div class="sidebar-wrapper">
                 <ul class="nav">
                     <li>
-                        <a href="dashboard.html">
+                        <a href="dashboard.php">
                             <i class="material-icons">dashboard</i>
-                            <p>Dashboard</p>
+                            <p>Գլխավոր էջ</p>
                         </a>
                     </li>
                     <li>
-                        <a href="./user.html">
+                        <a href="./user.php">
                             <i class="material-icons">person</i>
-                            <p>User Profile</p>
+                            <p>Անձնական էջ</p>
                         </a>
                     </li>
                     <li>
-                        <a href="./table.html">
+                        <a href="./table.php">
                             <i class="material-icons">content_paste</i>
-                            <p>Table List</p>
+                            <p>Տվյալների Աղուսյակ</p>
                         </a>
                     </li>
 
                     <li class="active">
-                        <a href="./maps.html">
+                        <a href="./maps.php">
                             <i class="material-icons">location_on</i>
-                            <p>Maps</p>
+                            <p>ՀԵՏԱԴԱՐՁ ԿԱՊ</p>
                         </a>
                     </li>
 
@@ -71,57 +75,17 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"> Map </a>
+                        <a class="navbar-brand" href="#"> ՀԵՏԱԴԱՐՁ ԿԱՊ </a>
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
                             <li>
-                                <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="material-icons">dashboard</i>
-                                    <p class="hidden-lg hidden-md">Dashboard</p>
-                                </a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="material-icons">notifications</i>
-                                    <span class="notification">5</span>
-                                    <p class="hidden-lg hidden-md">Notifications</p>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="#">Mike John responded to your email</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">You have 5 new tasks</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">You're now friend with Andrew</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Another Notification</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Another One</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="material-icons">person</i>
+                                <a href="logout.php" class="dropdown-toggle">
+                                    <i class="fas fa-sign-out-alt elq"></i>
                                     <p class="hidden-lg hidden-md">Profile</p>
                                 </a>
                             </li>
                         </ul>
-                        <form class="navbar-form navbar-right" role="search">
-                            <div class="form-group  is-empty">
-                                <input type="text" class="form-control" placeholder="Search">
-                                <span class="material-input"></span>
-                            </div>
-                            <button type="submit" class="btn btn-white btn-round btn-just-icon">
-                                <i class="material-icons">search</i>
-                                <div class="ripple-container"></div>
-                            </button>
-                        </form>
                     </div>
                 </div>
             </nav>
