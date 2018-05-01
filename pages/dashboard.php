@@ -43,12 +43,12 @@
                             <p>ԳԼԽԱՎՈՐ ԷՋ</p>
                         </a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="./user.php">
                             <i class="material-icons">person</i>
                             <p>Անձնական էջ</p>
                         </a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="./table.php">
                             <i class="material-icons">content_paste</i>
@@ -83,7 +83,7 @@
                             <li>
                                 <a href="logout.php" class="dropdown-toggle">
                                     <i class="fas fa-sign-out-alt elq"></i>
-                                    <p class="hidden-lg hidden-md">Profile</p>
+                                    <p class="hidden-lg hidden-md">Դուրս գալ</p>
                                 </a>
                             </li>
                         </ul>
@@ -175,10 +175,9 @@
                         <div class="col-md-6">
                             <div class="card">
                                 <div class="card-header card-chart my-class" data-background-color="green">
-                                   <div class="fb-page" data-href="https://web.facebook.com/polytech.am/" data-tabs="timeline" data-width="420" data-height="350"
-                                            data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
-                                            data-show-facepile="true">            
-                                    </div>
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2Fpolytech.am%2F&tabs=timeline&width=400&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media">
+                                        
+                                    </iframe>
                                     <div class="my_text_polo">
                                         <h4> ՀԱՊՀ պաշտոնական ֆեյսբուքյան էջ</h4>
                                         <p>Այստեղ Դուք կարող եք ստանալ ընդգրկուն և <br> լիարժեք տեղեկատվություն համալսարանի <br>կառուցվածքի և գործունեության մասին:</p>
@@ -189,10 +188,7 @@
                         <div class="col-lg-6">
                             <div class="card">
                                 <div class="card-header card-chart my-class" data-background-color="orange">
-                                    <div class="fb-page" data-href="https://web.facebook.com/scnpuaN1/" data-tabs="timeline" data-width="420" data-height="350"
-                                            data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
-                                            data-show-facepile="true">
-                                    </div>
+                                     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2FscnpuaN1%2F&tabs=timeline&width=400&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                                      <div class="my_text_polo adding_class">
                                         <h4>ՀԱՊՀ ՈԽ պաշտոնական ֆեյսբուքյան էջ</h4>
                                         <p>Հայաստանի ազգային պոլիտեխնիկական համալսարանի Ուսանողական Խորհրդի պոշտոնական ֆեյսբուքյան էջը հանդիսանում է ՀԱՊՀ ՈւԽ-ի ինտերնետային կայքի ենթաբաժին: Այն ղեկավարվում է Ուսանողական Խորհրդի անդամների կողմից:</p>
@@ -578,14 +574,14 @@
     })
 </script> -->
 
-<script>(function (d, s, id) {
+<!-- <script>(function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
         js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
-</script>
+</script> -->
 
 
 

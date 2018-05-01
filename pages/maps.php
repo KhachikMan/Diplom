@@ -41,12 +41,12 @@
                             <p>Գլխավոր էջ</p>
                         </a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="./user.php">
                             <i class="material-icons">person</i>
                             <p>Անձնական էջ</p>
                         </a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="./table.php">
                             <i class="material-icons">content_paste</i>
@@ -66,10 +66,11 @@
             </div>
         </div>
         <div class="main-panel">
-            <nav class="navbar navbar-transparent navbar-absolute">
+            <nav class="navbar navbar-default">
                 <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -77,17 +78,23 @@
                         </button>
                         <a class="navbar-brand" href="#"> ՀԵՏԱԴԱՐՁ ԿԱՊ </a>
                     </div>
-                    <div class="collapse navbar-collapse">
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                   
+                        <div class="navbar-form navbar-left">
+                            <div style="padding-top:10px;">Հայաստան, ք.Երևան, Տերյան 105, 0009, Հեռ.՝ +374 10 56 79 68</div>
+                        </div>
                         <ul class="nav navbar-nav navbar-right">
                             <li>
                                 <a href="logout.php" class="dropdown-toggle">
                                     <i class="fas fa-sign-out-alt elq"></i>
-                                    <p class="hidden-lg hidden-md">Profile</p>
+                                    <p class="hidden-lg hidden-md">Դուրս գալ</p>
                                 </a>
                             </li>
                         </ul>
-                    </div>
-                </div>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
             </nav>
             <div id="alahakbar">
                 <div id="map">

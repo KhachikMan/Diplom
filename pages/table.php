@@ -6,7 +6,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png" />
     <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Material Dashboard by Creative Tim</title>
+    <title>Տվյալների աղուսյակ</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
     <!-- Bootstrap core CSS     -->
@@ -18,6 +18,8 @@
     <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -28,36 +30,38 @@
 
         Tip 2: you can also add an image using data-image tag
     -->
-            <div class="logo">
-                <a href="http://www.creative-tim.com" class="simple-text">
-                    Creative Tim
-                </a>
-            </div>
+    <div class="logo">
+            
+        <div class="nkar">
+            <img src="../login_page/images/img-01.png" alt="IMG" width="150px">
+        </div>
+           
+        </div>
             <div class="sidebar-wrapper">
                 <ul class="nav">
                     <li>
-                        <a href="dashboard.html">
+                        <a href="dashboard.php">
                             <i class="material-icons">dashboard</i>
-                            <p>Dashboard</p>
+                            <p>Գլխավոր էջ</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="./user.html">
+                    <!-- <li>
+                        <a href="./user.php">
                             <i class="material-icons">person</i>
-                            <p>User Profile</p>
+                            <p>Անձնական էջ</p>
                         </a>
-                    </li>
+                    </li> -->
                     <li class="active">
-                        <a href="./table.html">
+                        <a href="./table.php">
                             <i class="material-icons">content_paste</i>
-                            <p>Table List</p>
+                            <p>ՏՎՅԱԼՆԵՐԻ ԱՂՈՒՍՅԱԿ</p>
                         </a>
                     </li>
 
                     <li>
-                        <a href="./maps.html">
+                        <a href="./maps.php">
                             <i class="material-icons">location_on</i>
-                            <p>Maps</p>
+                            <p>Հետադարձ կապ</p>
                         </a>
                     </li>
 
@@ -74,57 +78,17 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"> Table List </a>
+                        <a class="navbar-brand" href="#"> ՏՎՅԱԼՆԵՐԻ ԱՂՈՒՍՅԱԿ</a>
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
                             <li>
-                                <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="material-icons">dashboard</i>
-                                    <p class="hidden-lg hidden-md">Dashboard</p>
-                                </a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="material-icons">notifications</i>
-                                    <span class="notification">5</span>
-                                    <p class="hidden-lg hidden-md">Notifications</p>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="#">Mike John responded to your email</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">You have 5 new tasks</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">You're now friend with Andrew</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Another Notification</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Another One</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="material-icons">person</i>
-                                    <p class="hidden-lg hidden-md">Profile</p>
+                                <a href="logout.php" class="dropdown-toggle">
+                                    <i class="fas fa-sign-out-alt elq"></i>
+                                    <p class="hidden-lg hidden-md">Դուրս գալ</p>
                                 </a>
                             </li>
                         </ul>
-                        <form class="navbar-form navbar-right" role="search">
-                            <div class="form-group  is-empty">
-                                <input type="text" class="form-control" placeholder="Search">
-                                <span class="material-input"></span>
-                            </div>
-                            <button type="submit" class="btn btn-white btn-round btn-just-icon">
-                                <i class="material-icons">search</i>
-                                <div class="ripple-container"></div>
-                            </button>
-                        </form>
                     </div>
                 </div>
             </nav>
@@ -134,53 +98,53 @@
                         <div class="col-md-12">
                             <div class="card">
                                 <div class="card-header" data-background-color="purple">
-                                    <h4 class="title">Simple Table</h4>
-                                    <p class="category">Here is a subtitle for this table</p>
+                                    <h4 class="title">ՈՒՍԱՆՈՂՆԵՐԻ ԼԱԲՈՐԱՏՈՐ/ԳՈՐԾՆԱԿԱՆ ԱՇԽԱՏԱՆՔՆԵՐԻ ԿԱՏԱՐՈՂԱԿԱՆԻ ՀԱՇՎԱՌՄԱՆ ՀԱՄԱԿԱՐԳ</h4>
+                                    <p class="category">Հ 419-1</p>
                                 </div>
                                 <div class="card-content table-responsive">
                                     <table class="table">
                                         <thead class="text-primary">
-                                            <th>Name</th>
-                                            <th>Country</th>
-                                            <th>City</th>
-                                            <th>Salary</th>
+                                            <th>Անուն Ազգանուն</th>
+                                            <th>Դասախոսություն</th>
+                                            <th>Գործնական</th>
+                                            <th>Լաբորատոր</th>
                                         </thead>
                                         <tbody>
                                             <tr>
                                                 <td>Dakota Rice</td>
-                                                <td>Niger</td>
-                                                <td>Oud-Turnhout</td>
-                                                <td class="text-primary">$36,738</td>
+                                                <td>5</td>
+                                                <td>4</td>
+                                                <td>5</td>
                                             </tr>
                                             <tr>
                                                 <td>Minerva Hooper</td>
-                                                <td>Curaçao</td>
-                                                <td>Sinaai-Waas</td>
-                                                <td class="text-primary">$23,789</td>
+                                                <td>2</td>
+                                                <td>5</td>
+                                                <td>5</td>
                                             </tr>
                                             <tr>
                                                 <td>Sage Rodriguez</td>
-                                                <td>Netherlands</td>
-                                                <td>Baileux</td>
-                                                <td class="text-primary">$56,142</td>
+                                                <td>0</td>
+                                                <td>1</td>
+                                                <td>1</td>
                                             </tr>
                                             <tr>
                                                 <td>Philip Chaney</td>
-                                                <td>Korea, South</td>
-                                                <td>Overland Park</td>
-                                                <td class="text-primary">$38,735</td>
+                                                <td>1</td>
+                                                <td>5</td>
+                                                <td>4</td>
                                             </tr>
                                             <tr>
                                                 <td>Doris Greene</td>
-                                                <td>Malawi</td>
-                                                <td>Feldkirchen in Kärnten</td>
-                                                <td class="text-primary">$63,542</td>
+                                                <td>4</td>
+                                                <td>4</td>
+                                                <td>5</td>
                                             </tr>
                                             <tr>
                                                 <td>Mason Porter</td>
-                                                <td>Chile</td>
-                                                <td>Gloucester</td>
-                                                <td class="text-primary">$78,615</td>
+                                                <td>5</td>
+                                                <td>5</td>
+                                                <td>4</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -253,7 +217,7 @@
                     </div>
                 </div>
             </div>
-            <footer class="footer">
+            <!-- <footer class="footer">
                 <div class="container-fluid">
                     <nav class="pull-left">
                         <ul>
@@ -287,7 +251,7 @@
                         <a href="http://www.creative-tim.com">Creative Tim</a>, made with love for a better web
                     </p>
                 </div>
-            </footer>
+            </footer> -->
         </div>
     </div>
 </body>

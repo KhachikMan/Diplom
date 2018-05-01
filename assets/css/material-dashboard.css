@@ -1,38 +1,13 @@
-/*!
 
- =========================================================
- * Material Dashboard - v1.2.0
- =========================================================
-
- * Product Page: http://www.creative-tim.com/product/material-dashboard
- * Copyright 2017 Creative Tim (http://www.creative-tim.com)
- * Licensed under MIT (https://github.com/creativetimofficial/material-dashboard/blob/master/LICENSE.md)
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- */
-
-
-/* ANIMATION */
-
-
-/* SHADOWS */
-
-
-/* Shadows (from mdl http://www.getmdl.io/) */
 
 .card-header.card-chart.my-class .my_text_polo {
     padding-top: 25px;
     padding-right: 15px;
     color: #ffffff;
     text-align: left;
+    width: 44%;
 }
 
-.card-header.card-chart.my-class .adding_class {
-   padding-left: 10px;
-}
 
 .card-header.card-chart.my-class .my_text_polo > p {
     font-size: 13px;
@@ -689,6 +664,7 @@ h2.title {
     position: relative;
     top: 0;
     height: 100vh;
+    background-color: #EEEEEE !important;
 }
 
 .sidebar,
@@ -786,7 +762,7 @@ h2.title {
 .off-canvas-sidebar .nav p {
     margin: 0;
     line-height: 30px;
-    font-size: 14px;
+    font-size: 13px !important ;
 }
 
 .sidebar .nav i,
@@ -4491,7 +4467,7 @@ fieldset[disabled] .navbar .btn-link:focus {
 
 .navbar,
 .navbar.navbar-default {
-    background-color: #FFFFFF;
+    background-color: #EEEEEE;
     color: #555555;
 }
 
